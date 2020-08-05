@@ -325,6 +325,7 @@ workflows:
             branches:
               only:
                 - /v[0-9]+\.[0-9]+/
+                - master
       - release_docker:
           requires:
             - prepare_build
