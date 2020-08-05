@@ -141,7 +141,7 @@ jobs:
 
   build_artifacts:
     executor: golang
-    parallelism: 4
+    parallelism: 5
     steps:
       - restore_cache:
           name: "Restore source code cache"
