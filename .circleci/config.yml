@@ -168,7 +168,7 @@ jobs:
           root: build
           paths:
             - "*.zip"
-            - "tendermint_linux_amd64"
+            - "tendermint_linux_arm64"
 
   release_artifacts:
     executor: golang
