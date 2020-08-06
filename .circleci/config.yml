@@ -168,7 +168,7 @@ jobs:
           root: build
           paths:
             - "*.zip"
-            - "tendermint_linux_arm64"
+            - "tendermint_linux_amd64"
       - store_artifacts:
           path: /tmp/workspace/tendermint_v0.0.0_linux_arm64.zip
           destination: tendermint_v0.0.0_linux_arm64.zip
