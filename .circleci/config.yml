@@ -169,6 +169,9 @@ jobs:
           paths:
             - "*.zip"
             - "tendermint_linux_arm64"
+      - store_artifacts:
+          path: /tmp/workspace/tendermint_v0.0.0_linux_arm64.zip
+
 
   release_artifacts:
     executor: golang
